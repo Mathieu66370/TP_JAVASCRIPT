@@ -6,5 +6,5 @@ let sum = array.reduce((accumulator, currentValue) => accumulator + currentValue
 // Calcul de la moyenne
 let average = sum / array.length;
 
-
+// Affichage
 console.log("La moyenne des éléments du tableau est :", average);
