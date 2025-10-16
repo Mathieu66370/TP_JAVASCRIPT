@@ -13,7 +13,7 @@ for (let i = array.length - 1; i >= 0; i--) {
 }
 
 // Créer une copie du tableau
-let arrayCopy = array.slice(); // ou [...array] avec spread operator
+let arrayCopy = array.slice(); 
 {
     console.log("Copie du tableau :", arrayCopy);
 }

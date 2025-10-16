@@ -6,7 +6,7 @@ let max = array[0];
 // On parcourt le tableau
 for (let i = 1; i < array.length; i++) {
     if (array[i] > max) {
-        max = array[i]; // mise à jour si on trouve un élément plus grand
+        max = array[i]; // mise à jour si on trouve un élément + grand
     }
 }
 
