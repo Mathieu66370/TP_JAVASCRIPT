@@ -25,13 +25,13 @@ console.log("Nom de la société :", data.nom);
 
 console.log("Siège social :", data["siège social"]);
 
-console.log("Fondateurs de la société ");
+console.log("Fondateurs de la société : ");
 for (let fondateur of data.fondateurs) {
     console.log(
         `${fondateur.nom}, né le ${fondateur.naissance} à ${fondateur.lieu}`
     );
 };
-console.log("Chiffres d'affaires de la société ");
+console.log("Chiffres d'affaires de la société : ");
 for (let annee in data["chiffres d'affaires"]) {
     console.log(
         `${annee} : ${data["chiffres d'affaires"][annee]}  milliards de dollars`
