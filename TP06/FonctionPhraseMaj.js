@@ -17,5 +17,6 @@ function majMots(chaine) {
 }
 
 let phrase = "bonjour tout le monde";
+
 console.log(majMots(phrase));
 console.log(majMots(12)); 
